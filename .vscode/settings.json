@@ -1,0 +1,10 @@
+{
+  "chat.agentFilesLocations": {
+    ".github/agents/security": true,
+    ".github/agents/security/subagents": true
+  },
+  "chat.agentSkillsLocations": {
+    ".github/skills": true,
+    ".github/skills/security": true
+  },
+}
