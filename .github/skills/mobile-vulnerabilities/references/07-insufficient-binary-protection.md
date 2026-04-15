@@ -102,3 +102,10 @@ competitors.
   binary protection layers.
 - Validate remediation by performing reverse engineering analysis on the obfuscated
   release binary.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

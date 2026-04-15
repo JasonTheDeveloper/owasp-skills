@@ -110,3 +110,10 @@ An attacker supplies `example.com; cat /etc/passwd` to execute arbitrary command
 - Deploy WAF rules to block common injection patterns as an interim measure while code is
   remediated.
 - Re-test all remediated endpoints with injection payloads to confirm the fix.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

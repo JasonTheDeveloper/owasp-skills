@@ -112,3 +112,10 @@ attacker accesses secrets belonging to private projects.
 - Audit and lock down all files referenced by pipeline configurations (Makefiles, scripts, test
   configurations, linter configurations).
 - Enable and enforce branch protection rules with correlating pipeline trigger restrictions.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

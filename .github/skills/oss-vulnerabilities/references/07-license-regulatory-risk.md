@@ -101,3 +101,10 @@ component, or accept delays in certification.
   technical analysis alone.
 - Implement automated license scanning in the CI/CD pipeline to prevent introduction of
   non-compliant dependencies.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

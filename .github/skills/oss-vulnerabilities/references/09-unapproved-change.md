@@ -86,3 +86,10 @@ compromise is not detected because no artifact verification is performed.
 - Enable lock file integrity checking in the project's package manager configuration.
 - Review historical builds for potential exposure during the period when mutable or unverified
   resources were in use.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

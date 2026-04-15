@@ -95,3 +95,10 @@ hashes are cracked by GPU.
 - Re-hash all passwords using strong adaptive algorithms with appropriate work factors.
 - Replace all deprecated cryptographic algorithms and insecure modes of operation.
 - Deploy automated scanning for cryptographic configuration weaknesses across all environments.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

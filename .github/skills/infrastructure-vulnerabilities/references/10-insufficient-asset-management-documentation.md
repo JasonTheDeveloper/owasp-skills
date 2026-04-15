@@ -81,3 +81,10 @@ Damaged systems are rebuilt without extended disruption.
 - Schedule recurring inventory audits and automated vulnerability scanning.
 - Create and maintain documentation for all IT processes, responsibilities, and configurations.
 - Assign ownership for inventory accuracy and documentation currency.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

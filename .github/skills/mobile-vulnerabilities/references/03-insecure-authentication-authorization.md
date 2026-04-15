@@ -113,3 +113,10 @@ in administrative groups and performs privileged operations.
 - Implement proper session management with secure, random, high-entropy session tokens.
 - Validate remediation by performing penetration testing on authentication and authorization
   flows.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

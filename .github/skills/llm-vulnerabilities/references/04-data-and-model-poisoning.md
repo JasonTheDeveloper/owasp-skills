@@ -132,3 +132,10 @@ retrieved and used to generate a harmful or misleading response.
 - Implement quality checks on user-generated content and real-time data feeds before
   incorporation into retraining.
 - Deploy adversarial training methods to minimize sensitivity to identified poisoning patterns.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

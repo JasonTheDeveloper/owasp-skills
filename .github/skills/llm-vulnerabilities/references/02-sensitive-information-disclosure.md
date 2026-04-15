@@ -114,3 +114,10 @@ or target high-value clients.
   opt-out options for users.
 - Reconfigure infrastructure with proper network segmentation and encryption where security
   gaps exist.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

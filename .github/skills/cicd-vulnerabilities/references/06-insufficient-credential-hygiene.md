@@ -103,3 +103,10 @@ discovers the credentials and uses them to access the production database.
 - Rebuild container images to eliminate secrets from intermediate layers using multi-stage builds.
 - Establish and enforce a credential rotation policy with automated tracking and alerting.
 - Replace shared credentials with dedicated, individually-scoped credentials.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

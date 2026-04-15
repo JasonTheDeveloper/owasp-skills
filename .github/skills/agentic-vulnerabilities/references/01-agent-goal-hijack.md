@@ -108,3 +108,10 @@ convinces the user to make an ill-advised business decision.
 - Require human approval for any actions that deviate from the original task scope.
 - Establish behavioral baselines and deploy automated alerting for goal drift or anomalous tool
   sequences.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

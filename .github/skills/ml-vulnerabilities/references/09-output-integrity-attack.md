@@ -76,3 +76,10 @@ potentially death.
 - Apply pending software updates and security patches to model serving infrastructure.
 - Restrict access to model output endpoints to authenticated and authorized consumers only.
 - Conduct a forensic review of tampered outputs and restore correct results from logs.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

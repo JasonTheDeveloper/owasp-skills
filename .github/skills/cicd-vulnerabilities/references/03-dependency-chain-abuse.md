@@ -98,3 +98,10 @@ deployment credentials.
 - Isolate pre-install script execution from secrets and sensitive build resources.
 - Remove any references to internal package names from public repositories.
 - Harden all build environments according to the guidelines under CICD-SEC-7.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

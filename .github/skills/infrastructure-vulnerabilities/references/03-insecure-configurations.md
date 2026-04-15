@@ -70,3 +70,10 @@ potentially endangering patient care.
 - Establish network segmentation between distinct operational areas.
 - Create and enforce a configuration management baseline with automated drift detection.
 - Schedule recurring security audits and remediate findings promptly.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

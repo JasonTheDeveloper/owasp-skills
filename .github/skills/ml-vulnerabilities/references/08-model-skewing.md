@@ -80,3 +80,10 @@ institution and its customers.
 - Enforce digital signature verification on all feedback data before it enters the training loop.
 - Continuously monitor model performance and compare against ground truth to detect skewing.
 - Audit and tighten access controls on the MLOps system and feedback infrastructure.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

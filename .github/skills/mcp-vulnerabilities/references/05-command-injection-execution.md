@@ -80,3 +80,10 @@ The agent constructs an unparameterized query and the injection destroys the dat
 - Audit all recent tool executions for unauthorized commands.
 - Patch tool implementations to use parameterized execution.
 - Deploy sandboxing and least-privilege enforcement.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

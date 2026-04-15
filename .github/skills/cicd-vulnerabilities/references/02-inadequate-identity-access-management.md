@@ -95,3 +95,10 @@ they use to access production cloud environments.
 - Replace all shared accounts with dedicated, individually-scoped accounts.
 - Establish automated workflows to disable external collaborator access upon contract expiry.
 - Implement periodic access reviews with mandatory re-certification of identity permissions.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

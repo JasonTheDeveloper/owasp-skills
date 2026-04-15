@@ -96,3 +96,10 @@ takes over the victim's accounts.
 - Implement account lockout or progressive delay policies on failed login attempts.
 - Regenerate session identifiers on login and ensure complete session invalidation on logout.
 - Deploy monitoring and alerting for authentication anomalies and attack patterns.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

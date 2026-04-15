@@ -73,3 +73,10 @@ financial, legal, and reputational damage.
 - Establish and enforce data classification and handling policies.
 - Implement data loss prevention (DLP) monitoring on egress points.
 - Conduct organization-wide security awareness training focused on data handling.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

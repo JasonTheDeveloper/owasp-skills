@@ -74,3 +74,10 @@ financial history, account balances, or credit status.
 - Restrict API access and enforce query rate limits to prevent systematic probing.
 - Encrypt training data in transit and at rest and enforce strict access controls.
 - Periodically test the model for membership inference susceptibility using known attack methods.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -1,7 +1,7 @@
 ---
 name: agentic-vulnerabilities
-description: OWASP Agentic Security Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in AI agent systems.
-license: MIT
+description: OWASP Top 10 for Agentic Applications (2026) vulnerability knowledge base for identifying, assessing, and remediating security risks in AI agent systems.
+license: CC-BY-SA-4.0
 metadata:
   authors: "OWASP Agentic Security Initiative"
   spec_version: "1.0"
@@ -45,3 +45,14 @@ security risks in AI agent systems.
   - `formats/` — output contract examples.
     - `format-vulnerability-assessment-v1.0.0.md`
     - `format-remediation-checklist-v1.0.0.md`
+
+## Third-Party Attribution
+
+Copyright © OWASP Foundation.
+OWASP® Top 10 for Agentic Applications (2026) content is derived from works by the
+OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Source: <https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/>
+Modifications: Vulnerability descriptions restructured into agent-consumable reference
+documents with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation. Use does not imply endorsement.

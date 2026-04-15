@@ -79,3 +79,10 @@ Without telemetry and baselines, changes go unnoticed until a manual audit month
 - Implement masking and pseudonymization for privacy-sensitive fields.
 - Reconstruct minimal timeline from external system logs.
 - Enforce mandatory logging for all MCP agents going forward.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

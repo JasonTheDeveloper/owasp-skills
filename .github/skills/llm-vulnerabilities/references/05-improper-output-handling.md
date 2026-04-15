@@ -131,3 +131,10 @@ software packages, potentially leading developers to download malware-infected r
   LLM outputs.
 - Conduct thorough code review and verification of all LLM-suggested packages and code
   before integration.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

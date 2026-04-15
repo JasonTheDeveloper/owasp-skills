@@ -74,3 +74,10 @@ cloud credentials stored in environment variables.
 - Add input validation that rejects XML payloads containing DTD declarations.
 - Move functions that process untrusted XML into a VPC to limit outbound exfiltration.
 - Remove any residual sensitive data from `/tmp` and environment variables that are not required.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

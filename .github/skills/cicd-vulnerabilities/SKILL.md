@@ -1,7 +1,7 @@
 ---
 name: cicd-vulnerabilities
-description: OWASP CI/CD Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in continuous integration and continuous delivery environments.
-license: MIT
+description: OWASP Top 10 CI/CD Security Risks vulnerability knowledge base for identifying, assessing, and remediating security risks in continuous integration and continuous delivery environments.
+license: CC-BY-SA-4.0
 metadata:
   authors: "OWASP CI/CD Security Project"
   spec_version: "1.0"
@@ -44,3 +44,14 @@ that an agent can query to identify, assess, and remediate CI/CD pipeline securi
   - `formats/` — output contract examples.
     - `format-vulnerability-assessment-v1.0.0.md`
     - `format-remediation-checklist-v1.0.0.md`
+
+## Third-Party Attribution
+
+Copyright © OWASP Foundation.
+OWASP® Top 10 CI/CD Security Risks content is derived from works by the
+OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Source: <https://owasp.org/www-project-top-10-ci-cd-security-risks/>
+Modifications: Vulnerability descriptions restructured into agent-consumable reference
+documents with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation. Use does not imply endorsement.

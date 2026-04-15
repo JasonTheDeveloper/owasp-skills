@@ -86,3 +86,10 @@ reads environment variables and exfiltrates cloud credentials.
 - Restrict function IAM roles to minimize the impact of credential theft.
 - Implement deserialization monitoring and alerting for anomalous patterns.
 - Establish dependency scanning in the CI/CD pipeline to detect new deserialization CVEs.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

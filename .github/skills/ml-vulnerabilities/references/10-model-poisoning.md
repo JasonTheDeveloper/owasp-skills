@@ -82,3 +82,10 @@ the bank.
 - Apply regularization to reduce the model's sensitivity to parameter manipulation.
 - Conduct a forensic review of parameter changes to identify the scope and method of the attack.
 - Retrain the model from clean data if parameter integrity cannot be verified.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

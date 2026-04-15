@@ -78,3 +78,10 @@ an administrative role, establishing persistent access to the cloud account.
 - Deploy automated IAM policy validation in the CI/CD pipeline.
 - Establish periodic access control reviews for all functions.
 - Rotate credentials and audit access logs after any suspected compromise.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

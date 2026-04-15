@@ -99,3 +99,10 @@ identify a vulnerable gadget chain, and gains remote code execution on the appli
 - Restrict auto-update functionality to accept only signed updates from trusted sources.
 - Enforce mandatory code review for all changes before deployment.
 - Remove or replace functionality loaded from untrusted third-party domains.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

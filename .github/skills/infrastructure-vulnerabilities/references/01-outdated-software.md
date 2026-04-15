@@ -73,3 +73,10 @@ plans, selling them to competitors.
 - Establish a recurring update management cycle with defined ownership.
 - Subscribe to vendor security advisory feeds for all deployed software.
 - Conduct post-update validation to confirm patches are applied and effective.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

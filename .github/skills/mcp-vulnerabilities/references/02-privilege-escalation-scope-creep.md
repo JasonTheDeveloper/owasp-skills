@@ -73,3 +73,10 @@ include org:admin, enabling full takeover.
 - Implement automated drift detection for entitlements.
 - Require multi-party approval for non-routine privilege grants.
 - Track all permission changes with immutable, tamper-evident logs.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

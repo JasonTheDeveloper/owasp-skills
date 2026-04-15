@@ -80,3 +80,10 @@ privileged functions intended only for admins.
 - Enable mTLS and strict API key binding.
 - Audit existing agents, tools, and connectors for excessive privileges.
 - Patch authorization middleware to enforce scope validation.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

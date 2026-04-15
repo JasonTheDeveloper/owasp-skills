@@ -105,3 +105,10 @@ Attackers fingerprint the service version and exploit the flaw to gain a foothol
 - Harden CI/CD pipelines with access controls, signed builds, and separation of duties.
 - Establish automated patch scanning and notification for all dependency domains.
 - Validate that deployed artifacts match expected signed versions.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -85,3 +85,10 @@ subsystem, downloading and executing arbitrary code on the server.
 - Remove or replace dependencies that are no longer maintained and will not receive patches.
 - Re-run SCA and reachability analysis after remediation to confirm the vulnerability is resolved.
 - Document the vulnerability response including timeline, decisions, and residual risk acceptance.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

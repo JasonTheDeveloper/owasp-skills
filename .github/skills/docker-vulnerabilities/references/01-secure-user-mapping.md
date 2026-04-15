@@ -83,3 +83,10 @@ containers.
 - Audit and remove unnecessary SUID/SGID binaries from container images.
 - Reconfigure services to bind to unprivileged ports (above 1024).
 - Validate remediation by inspecting the runtime user of all deployed containers.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -1,7 +1,7 @@
 ---
 name: infrastructure-vulnerabilities
-description: OWASP Infrastructure Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in internal IT infrastructure environments.
-license: MIT
+description: OWASP Top 10 Infrastructure Security Risks (2024) vulnerability knowledge base for identifying, assessing, and remediating security risks in internal IT infrastructure environments.
+license: CC-BY-SA-4.0
 metadata:
   authors: "OWASP Infrastructure Security Project"
   spec_version: "1.0"
@@ -15,7 +15,7 @@ metadata:
 
 This `SKILL.md` is the **entrypoint** for the Infrastructure Vulnerabilities skill.
 
-The skill encodes the **OWASP Infrastructure Security Top 10 (2024)** as structured,
+The skill encodes the **OWASP Top 10 Infrastructure Security Risks (2024)** as structured,
 machine-readable references that an agent can query to identify, assess, and remediate
 infrastructure security risks.
 
@@ -45,3 +45,14 @@ infrastructure security risks.
   - `formats/` — output contract examples.
     - `format-vulnerability-assessment-v1.0.0.md`
     - `format-remediation-checklist-v1.0.0.md`
+
+## Third-Party Attribution
+
+Copyright © OWASP Foundation.
+OWASP® Top 10 Infrastructure Security Risks (2024) content is derived from works by the
+OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Source: <https://owasp.org/www-project-top-10-infrastructure-security-risks/>
+Modifications: Vulnerability descriptions restructured into agent-consumable reference
+documents with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation. Use does not imply endorsement.

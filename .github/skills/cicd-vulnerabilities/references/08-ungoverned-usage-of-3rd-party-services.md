@@ -105,3 +105,10 @@ production repositories, inject backdoors, and trigger deployment pipelines.
 - Establish expiry dates on all third-party access grants and implement periodic re-certification.
 - Rotate all credentials that third-party services have had access to after removing unnecessary
   integrations.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

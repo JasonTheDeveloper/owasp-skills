@@ -85,3 +85,10 @@ Customers unknowingly transfer money to the attacker.
 - Enable cryptographic identity and integrity verification on all internal communication
   protocols.
 - Conduct a full audit of internal communication paths and remediate any unencrypted channels.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

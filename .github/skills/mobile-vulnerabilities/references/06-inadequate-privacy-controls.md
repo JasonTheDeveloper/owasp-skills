@@ -100,3 +100,10 @@ the residual data.
 - Implement PII expiration and deletion policies.
 - Apply defense-in-depth encryption (e.g., TPM-sealed keys) for critical PII.
 - Validate remediation by auditing data flows, logs, and backups for residual PII exposure.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

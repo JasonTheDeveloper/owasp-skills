@@ -85,3 +85,10 @@ attacker to gain unauthorized access to the user's account and associated servic
 - Migrate credential storage to platform-provided secure storage (Keychain, Keystore).
 - Implement credential rotation policies for API keys and service tokens.
 - Validate remediation by scanning the application binary for residual credential material.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -122,3 +122,10 @@ memorization of sensitive data.
 - Apply AI red teaming to all supplied models to identify and remediate vulnerabilities.
 - Renegotiate or discontinue use of suppliers with unclear terms and conditions or inadequate
   privacy policies.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -83,3 +83,10 @@ package based on its legitimate origin and valid signature.
   malicious package.
 - Report the compromised package to the relevant package registry for takedown.
 - Review and strengthen internal artifact validation processes to prevent recurrence.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

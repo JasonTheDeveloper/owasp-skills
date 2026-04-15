@@ -80,3 +80,10 @@ through a vulnerability or API.
 - Apply differential privacy techniques during model training.
 - Retrain the model periodically to reduce the relevance of previously leaked information.
 - Audit access logs for evidence of systematic model probing.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

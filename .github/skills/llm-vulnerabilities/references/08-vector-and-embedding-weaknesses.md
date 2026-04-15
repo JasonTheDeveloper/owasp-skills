@@ -107,3 +107,10 @@ usefulness.
   documents are added to the knowledge base.
 - Monitor and evaluate the impact of retrieval augmentation on the foundational model's
   behavior, adjusting the augmentation process to maintain desired qualities.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

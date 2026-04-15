@@ -96,3 +96,10 @@ trojanized version are fully compromised.
 - Enforce code review requirements for all changes, including dependency updates.
 - Validate remediation by performing a complete software composition analysis on the
   release build.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

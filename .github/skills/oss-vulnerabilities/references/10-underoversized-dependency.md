@@ -96,3 +96,10 @@ Log4Shell), the project is exposed despite never having used the affected functi
   by switching to a more minimal direct dependency.
 - Document the rationale for retaining any micro or oversized dependencies, including the
   assessed supply chain risk and compensating controls.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

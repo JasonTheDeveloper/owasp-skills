@@ -102,3 +102,10 @@ attack to bypass these instructions, facilitating a remote code execution attack
 - Use multiple agents with least privileges when tasks require different access levels rather
   than embedding role information in system prompts.
 - Rotate any credentials or API keys that were previously embedded in system prompts.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

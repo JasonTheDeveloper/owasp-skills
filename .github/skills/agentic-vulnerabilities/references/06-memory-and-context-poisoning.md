@@ -105,3 +105,10 @@ tenant's sensitive chunk into retrieval by high cosine similarity.
 - Enforce per-tenant namespaces and trust scores for all shared memory and vector stores.
 - Deploy content validation on all memory write paths including peer-agent exchanges.
 - Expire unverified memory to limit the persistence window of poisoned entries.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

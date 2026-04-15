@@ -102,3 +102,10 @@ to deploy malicious code to production through legitimate deployment pipelines.
 - Restrict debug permissions on execution nodes to only those who require them, with appropriate
   monitoring.
 - Establish a vulnerability management cadence for all CI/CD infrastructure components.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

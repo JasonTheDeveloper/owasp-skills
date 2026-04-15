@@ -79,3 +79,10 @@ management traffic, and implement regular monitoring and logging of network devi
 - Patch and update all management hardware and software on a defined schedule.
 - Establish recurring access rights reviews with documented approval workflows.
 - Enable comprehensive logging and alerting on management component activities.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -96,3 +96,10 @@ to access production databases containing customer data.
 - Move all pipeline jobs off the controller node to dedicated worker nodes.
 - Establish a patch management cadence for all execution nodes.
 - Implement network segmentation and egress filtering on all build node networks.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

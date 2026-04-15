@@ -95,3 +95,10 @@ unintended actions, achieving remote code execution and gaining control over the
 - Implement data integrity verification for stored and transmitted data.
 - Validate remediation by running injection-focused penetration tests against all input
   and output paths.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

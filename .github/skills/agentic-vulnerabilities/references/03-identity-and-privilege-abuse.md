@@ -113,3 +113,10 @@ The attacker-controlled agent then issues system-level commands under assumed in
 - Bind OAuth tokens to signed intents and reject mismatched token usage.
 - Remove unverified agent descriptors from internal registries and require cryptographic
   attestation.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

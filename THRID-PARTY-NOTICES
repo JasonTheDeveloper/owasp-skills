@@ -1,0 +1,37 @@
+THIRD-PARTY-NOTICES
+
+This file contains third-party attribution notices for content embedded in this repository skill files.
+These notices supplement inline attribution blocks within individual files.
+
+---
+
+OWASP Top 10 Infrastructure Security Risks (2024), OWASP Top 10 (2025), OWASP Top 10 for LLM Applications (2025), OWASP Top 10 for Agentic Applications (2026), OWASP Top 10 CI/CD Security Risks, OWASP Machine Learning Security Top Ten (2023), OWASP Mobile Top 10 (2024), OWASP Top 10 Risks for Open Source Software, and OWASP Serverless Top 10
+Copyright: © OWASP Foundation
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+License URI: https://creativecommons.org/licenses/by-sa/4.0/
+Source: https://owasp.org/www-project-top-10-infrastructure-security-risks/
+Source: https://owasp.org/Top10/2025/
+Source: https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/
+Source: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
+Source: https://owasp.org/www-project-top-10-ci-cd-security-risks/
+Source: https://owasp.org/www-project-machine-learning-security-top-10/
+Source: https://owasp.org/www-project-mobile-top-10/
+Source: https://owasp.org/www-project-open-source-software-top-10/
+Source: https://owasp.org/www-project-serverless-top-10/
+Usage: Category names, IDs, and condensed descriptions in security instruction files.
+Vulnerability reference documents in skill files restructured into agent-consumable
+format with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation.
+
+---
+
+OWASP MCP Top 10 (2025), and OWASP Docker Top 10
+Copyright: © OWASP Foundation
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+License URI: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Source: https://owasp.org/www-project-mcp-top-10/
+Source: https://owasp.org/www-project-docker-top-10/
+Usage: Category names, IDs, and condensed descriptions in security instruction files.
+Vulnerability reference documents in skill files restructured into agent-consumable
+format with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation.

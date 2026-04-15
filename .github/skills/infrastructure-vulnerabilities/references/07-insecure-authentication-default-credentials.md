@@ -69,3 +69,10 @@ login attempts, and promote password best practices among users.
 - Deploy MFA across all user and administrative accounts.
 - Implement account lockout and alerting for repeated failed authentication attempts.
 - Provide organization-wide password management tooling and security awareness training.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

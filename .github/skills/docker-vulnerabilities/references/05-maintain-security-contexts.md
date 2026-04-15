@@ -87,3 +87,10 @@ gains access to the entire environment, affecting all clients' containers.
 - Separate containers by security classification onto distinct hosts or VM boundaries.
 - Document and enforce a host assignment policy based on security context.
 - Audit host assignments on a recurring schedule to detect drift.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

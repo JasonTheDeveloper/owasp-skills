@@ -115,3 +115,10 @@ disconnects.
 - Restore human oversight checkpoints for any governance drift identified during the cascade.
 - Maintain lineage metadata for every propagated action to support forensic traceability and
   rollback validation.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

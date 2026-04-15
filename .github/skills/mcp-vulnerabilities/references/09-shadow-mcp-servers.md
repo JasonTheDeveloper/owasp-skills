@@ -79,3 +79,10 @@ Manipulated entries propagate into model retraining pipelines, corrupting produc
 - Review logs and assess data exposure or leakage.
 - Remove unapproved plugins, schemas, or connectors.
 - Enforce registration and compliance checks before re-enabling access.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

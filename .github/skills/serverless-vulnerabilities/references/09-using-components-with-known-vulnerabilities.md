@@ -88,3 +88,10 @@ All functions using this dependency begin leaking credentials on each invocation
 - Verify package signatures and integrity hashes before deployment.
 - Establish a regular dependency review cadence across all functions.
 - Generate and publish SBOMs for each release.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

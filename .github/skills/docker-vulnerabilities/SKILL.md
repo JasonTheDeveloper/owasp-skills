@@ -1,14 +1,14 @@
 ---
 name: docker-vulnerabilities
-description: OWASP Docker Top 6 vulnerability knowledge base for identifying, assessing, and remediating security risks in containerized Docker environments.
-license: MIT
+description: OWASP Docker Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in containerized Docker environments.
+license: CC-BY-NC-SA-4.0
 metadata:
   authors: "OWASP Docker Security Project"
   spec_version: "1.0"
   framework_revision: "1.0.0"
   last_updated: "2026-02-13"
   skill_based_on: "https://github.com/chris-buckley/agnostic-prompt-standard"
-  content_based_on: "https://github.com/OWASP/Docker-Security"
+  content_based_on: "https://owasp.org/www-project-docker-top-10/"
 ---
 
 # Docker Vulnerabilities — Skill Entry
@@ -40,3 +40,14 @@ that an agent can query to identify, assess, and remediate Docker container secu
   - `formats/` — output contract examples.
     - `format-vulnerability-assessment-v1.0.0.md`
     - `format-remediation-checklist-v1.0.0.md`
+
+## Third-Party Attribution
+
+Copyright © OWASP Foundation.
+OWASP® Docker Top 10 content is derived from works by the
+OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Source: <https://owasp.org/www-project-docker-top-10/>
+Modifications: Vulnerability descriptions restructured into agent-consumable reference
+documents with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation. Use does not imply endorsement.

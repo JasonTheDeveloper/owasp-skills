@@ -69,3 +69,10 @@ When retrieved, it contains hidden instructions to reveal the system prompt or A
 - Quarantine suspect documents and remove them from retrieval indices.
 - Rotate credentials that could have been exposed by unauthorized tool calls.
 - Apply sanitization, provenance checks, and human approval for impacted tool calls.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

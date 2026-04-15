@@ -78,3 +78,10 @@ credentials, base64-encode it, and send it to an external endpoint.
 - Remove hardcoded credentials and migrate to the provider key management service.
 - Deploy runtime application self-protection (RASP) or commercial runtime defense solutions.
 - Establish a code review process that covers all event source integrations.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

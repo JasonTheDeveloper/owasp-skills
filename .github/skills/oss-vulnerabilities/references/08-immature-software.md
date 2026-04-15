@@ -99,3 +99,10 @@ through an external security audit.
   regressions regardless of upstream test coverage.
 - Document the maturity risk for each immature dependency and define review triggers for
   re-evaluation.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

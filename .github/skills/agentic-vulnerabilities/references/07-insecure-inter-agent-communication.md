@@ -110,3 +110,10 @@ but seemingly legitimate actions.
   cards.
 - Use versioned, typed message schemas with explicit per-message audiences and reject failing
   validations.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

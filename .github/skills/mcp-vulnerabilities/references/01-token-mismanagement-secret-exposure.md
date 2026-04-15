@@ -74,3 +74,10 @@ The model complies in a later unrelated session, leaking tokens.
 - Audit MCP configurations, server endpoints, and stored contexts.
 - Implement redaction pipelines for logs and telemetry.
 - Define organizational policies for credential lifecycle management.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -82,3 +82,10 @@ other forms of damage.
 - Restrict public access to model APIs and internals to limit attacker reconnaissance.
 - Continuously monitor model performance in production for accuracy degradation that may indicate
   ongoing adversarial attacks.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

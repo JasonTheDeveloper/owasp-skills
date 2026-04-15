@@ -78,3 +78,10 @@ original company.
 - Obfuscate model code and deployment artifacts.
 - Secure legal protections for the model and pursue legal action if theft is detected.
 - Review and tighten access controls on model storage, versioning, and deployment systems.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

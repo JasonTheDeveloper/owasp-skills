@@ -96,3 +96,10 @@ Legitimate customers cannot purchase the products at listed prices.
 - Add plausibility checks and business logic validation at each application tier.
 - Ensure tenant segregation is enforced at system and network layers.
 - Integrate security testing including misuse case validation into the CI/CD pipeline.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

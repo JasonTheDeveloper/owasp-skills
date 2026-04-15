@@ -111,3 +111,10 @@ infrastructure.
 - Extend log retention periods to meet organizational incident investigation requirements.
 - Ensure programmatic access is logged and monitored at parity with human access.
 - Conduct periodic log coverage reviews to catch newly-added systems or configuration drifts.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

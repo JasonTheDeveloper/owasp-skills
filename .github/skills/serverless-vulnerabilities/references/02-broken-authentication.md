@@ -78,3 +78,10 @@ gaining access to backend resources the function is permitted to reach.
 - Migrate to provider-managed identity services for all user and service authentication.
 - Audit and remove any functions with open or unauthenticated triggers in production.
 - Establish automated checks in the deployment pipeline that reject unauthenticated endpoints.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

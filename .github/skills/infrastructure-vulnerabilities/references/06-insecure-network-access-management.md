@@ -84,3 +84,10 @@ pivot point into the internal network for additional attacks.
 - Implement dynamic application-layer filtering at network boundaries.
 - Secure all remote access channels with VPN or equivalent encrypted tunneling.
 - Conduct regular network topology reviews and penetration tests.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

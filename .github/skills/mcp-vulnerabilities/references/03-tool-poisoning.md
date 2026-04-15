@@ -75,3 +75,10 @@ benign requests become destructive.
 - Rotate tokens or credentials that may have been abused.
 - Conduct forensic analysis of affected agents, actions, and data changes.
 - Patch CI/CD and registry processes to require signed commits and multi-party approvals.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

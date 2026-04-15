@@ -84,3 +84,10 @@ network resources or degradation of network performance.
 - Deploy anomaly detection on data ingestion pipelines to catch future poisoning attempts.
 - Use ensemble models trained on different data subsets to reduce single-point-of-failure risk.
 - Conduct periodic audits of data labeling quality and consistency.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

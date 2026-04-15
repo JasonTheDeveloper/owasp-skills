@@ -118,3 +118,10 @@ properly delete them afterward, leaving sensitive information exposed to unautho
 - Apply access controls to restrict data access to authorized users and processes.
 - Validate remediation by inspecting device storage, logs, and cloud configurations for
   residual sensitive data exposure.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

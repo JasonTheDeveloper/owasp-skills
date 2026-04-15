@@ -95,3 +95,10 @@ other containers.
 - Enable `--security-opt no-new-privileges` on all production containers.
 - Re-enable AppArmor or SELinux if previously disabled and address specific rule conflicts.
 - Decommission or replace host operating systems approaching end of support.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

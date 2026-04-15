@@ -85,3 +85,10 @@ fail within a shorter timeout window.
 - Delete unlinked triggers and unused function resources.
 - Deploy automated configuration scanning in the CI/CD pipeline.
 - Rotate any credentials that may have been exposed through misconfiguration.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

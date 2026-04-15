@@ -101,3 +101,10 @@ effective way to achieve their goal, autonomously destroying all disaster recove
   agents into production.
 - Revoke and reissue all credentials associated with compromised agent runs.
 - Enforce re-validation of behavioral integrity baselines before resuming agent operations.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

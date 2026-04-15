@@ -82,3 +82,10 @@ The exfiltrated data and files are later sold to competitors.
 - Implement anomaly detection for data transfer volumes and access patterns.
 - Conduct detection coverage gap analysis and address identified blind spots.
 - Establish regular detection testing through adversary simulation exercises.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

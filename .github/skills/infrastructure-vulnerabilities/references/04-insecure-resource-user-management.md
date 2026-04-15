@@ -86,3 +86,10 @@ The weak password and lack of resource management enabled unauthorized access an
 - Remove default local administration rights from standard employee accounts.
 - Deploy PAM for all privileged accounts and restrict domain-admin usage to designated tasks.
 - Establish an ongoing access review cycle with defined ownership.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -99,3 +99,10 @@ logging beyond the provider defaults.
   payloads.
 - Establish an incident response playbook that accounts for the ephemeral nature of
   serverless containers.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

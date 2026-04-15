@@ -107,3 +107,10 @@ granted permissions or unintentionally leak sensitive information.
 - Explicitly configure backup settings to exclude sensitive data.
 - Validate remediation by performing a comprehensive configuration review and security scan
   of the release build.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

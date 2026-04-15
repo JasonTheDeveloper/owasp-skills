@@ -110,3 +110,10 @@ The server returns the admin page because it does not enforce server-side access
 - Add access control failure logging with alerting for repeated violations.
 - Invalidate sessions on logout and enforce session timeout policies.
 - Conduct access control penetration testing and remediate all identified bypasses.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

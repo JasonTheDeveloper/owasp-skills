@@ -1,7 +1,7 @@
 ---
 name: ml-vulnerabilities
-description: OWASP Machine Learning Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in machine learning systems.
-license: MIT
+description: OWASP Machine Learning Top 10 (2023) vulnerability knowledge base for identifying, assessing, and remediating security risks in machine learning systems.
+license: CC-BY-SA-4.0
 metadata:
   authors: "OWASP Machine Learning Security Project"
   spec_version: "1.0"
@@ -44,3 +44,14 @@ that an agent can query to identify, assess, and remediate machine learning secu
   - `formats/` — output contract examples.
     - `format-vulnerability-assessment-v1.0.0.md`
     - `format-remediation-checklist-v1.0.0.md`
+
+## Third-Party Attribution
+
+Copyright © OWASP Foundation.
+OWASP® Machine Learning Security Top 10 (2023) content is derived from works by the
+OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Source: <https://owasp.org/www-project-machine-learning-security-top-10/>
+Modifications: Vulnerability descriptions restructured into agent-consumable reference
+documents with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation. Use does not imply endorsement.

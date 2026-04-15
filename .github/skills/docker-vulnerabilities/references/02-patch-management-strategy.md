@@ -89,3 +89,10 @@ foothold inside the container.
 - Establish automated patch scanning and notification for all four domains.
 - Decommission or isolate components that have reached end-of-life.
 - Validate that patches are effective by confirming new binary versions are running.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

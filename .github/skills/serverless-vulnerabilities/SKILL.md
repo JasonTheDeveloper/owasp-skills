@@ -1,7 +1,7 @@
 ---
 name: serverless-vulnerabilities
 description: OWASP Serverless Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in serverless application environments.
-license: MIT
+license: CC-BY-SA-4.0
 metadata:
   authors: "OWASP Serverless Security Project"
   spec_version: "1.0"
@@ -45,3 +45,14 @@ security risks.
   - `formats/` — output contract examples.
     - `format-vulnerability-assessment-v1.0.0.md`
     - `format-remediation-checklist-v1.0.0.md`
+
+## Third-Party Attribution
+
+Copyright © OWASP Foundation.
+OWASP® Serverless Top 10 content is derived from works by the
+OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Source: <https://owasp.org/www-project-serverless-top-10/>
+Modifications: Vulnerability descriptions restructured into agent-consumable reference
+documents with added detection and remediation guidance.
+OWASP® is a registered trademark of the OWASP Foundation. Use does not imply endorsement.

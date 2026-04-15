@@ -76,3 +76,10 @@ operations fail due to CPU starvation.
 - Review and adjust limits based on observed resource consumption patterns.
 - Configure monitoring and alerting for resource exhaustion and OOM events.
 - Validate that the aggregate of all container resource limits does not oversubscribe the host.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-NC-SA 4.0
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

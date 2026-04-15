@@ -75,3 +75,10 @@ themselves and the system identifies them as a legitimate user.
 - Apply differential privacy during fine-tuning to limit per-record influence.
 - Conduct security audits of the ML pipeline to identify and close vulnerabilities.
 - Implement continuous monitoring of fine-tuned model behavior in production.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -102,3 +102,10 @@ attacker-controlled agent which then exfiltrates or corrupts responses.
 - Roll back to pinned versions by content hash and commit ID when drift is detected.
 - Require staged rollout with differential tests and auto-rollback for any supply chain changes.
 - Enforce reproducible builds for all sandboxed agent containers.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -118,3 +118,10 @@ reliability of the LLM system.
 - Clearly label AI-generated content and communicate risks and limitations to users.
 - Establish secure coding practices and verification processes for all LLM-suggested code
   and packages before integration.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

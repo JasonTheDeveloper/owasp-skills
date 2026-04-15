@@ -90,3 +90,10 @@ human review.
 - Implement artifact provenance validation to ensure only CI-produced artifacts enter deploy
   pipelines.
 - Deploy drift detection tooling to identify and alert on unauthorized production changes.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -106,3 +106,10 @@ during fix-build tasks.
 - Add static analysis scanning to all agent-generated code before execution.
 - Enforce human approval for elevated or production-impacting code execution.
 - Pin dependencies by content hash and verify lockfile integrity before automated builds.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

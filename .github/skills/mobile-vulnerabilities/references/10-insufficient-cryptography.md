@@ -120,3 +120,10 @@ exploits these flaws to bypass or weaken the encryption protections.
   counts.
 - Validate remediation by conducting cryptographic vulnerability assessments on the
   release build.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

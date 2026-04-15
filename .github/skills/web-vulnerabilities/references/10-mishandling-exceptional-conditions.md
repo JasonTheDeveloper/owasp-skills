@@ -104,3 +104,10 @@ partial state to drain the user account or trigger duplicate credits.
 - Add complete rollback logic to all multi-step transactions.
 - Deploy rate limiting and resource quotas on endpoints susceptible to abuse.
 - Standardize error handling across the entire application using a centralized mechanism.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

@@ -91,3 +91,10 @@ it, and the development team is unaware of their exposure.
   project.
 - Establish a review process requiring that all new code inclusions, whether through package
   managers or direct file inclusion, are recorded and tracked.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.

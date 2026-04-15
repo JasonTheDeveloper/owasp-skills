@@ -80,3 +80,10 @@ browser of any user viewing the file listing.
 - Add server-side sanitization for data from non-API event sources before web rendering.
 - Establish automated XSS testing in the CI/CD pipeline.
 - Audit and update client-side code to use safe rendering patterns.
+
+---
+
+Content derived from works by the OWASP Foundation, licensed under CC BY-SA 4.0
+(<https://creativecommons.org/licenses/by-sa/4.0/>).
+Modifications: Restructured into agent-consumable reference format with added
+detection and remediation guidance.
