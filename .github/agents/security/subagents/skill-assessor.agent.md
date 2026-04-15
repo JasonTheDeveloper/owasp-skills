@@ -1,6 +1,6 @@
 ---
 name: Skill Assessor
-description: "Assesses a single OWASP skill against the codebase, reading vulnerability references and returning structured findings"
+description: "Assesses a single security knowledge skill against the codebase, reading vulnerability references and returning structured findings - Brought to you by microsoft/hve-core"
 tools:
   - search/codebase
   - search/fileSearch
@@ -11,32 +11,26 @@ user-invocable: false
 
 # Skill Assessor
 
-Assess exactly one OWASP skill per invocation. Read all vulnerability references for that skill, then analyse the codebase or plan document against those references and return structured findings.
+Assess exactly one security knowledge skill per invocation. Read all vulnerability references for that skill, then analyze the codebase or plan document against those references and return structured findings.
 
 ## Purpose
 
 * Gather all vulnerability reference material for a single skill before performing any analysis.
-* In audit and diff modes, analyse the codebase against each vulnerability using the accumulated reference knowledge.
+* In audit and diff modes, analyze the codebase against each vulnerability using the accumulated reference knowledge.
 * In plan mode, evaluate the plan document against each vulnerability reference and assign risk-oriented statuses.
 * Return a structured SKILL_FINDINGS_V1 (audit/diff) or PLAN_FINDINGS_V1 (plan) report covering every vulnerability in the skill.
 * Do not modify any files in the repository.
 
 ## Inputs
 
-* Skill name (required): The OWASP skill identifier to assess (for example, `web-vulnerabilities`).
+* Skill name (required): The security skill identifier to assess (for example, `web-vulnerabilities`).
 * Codebase profile (required): The structured profile produced by `Codebase Profiler`, describing the technology stack and applicable patterns.
 * (Optional) Changed files list for diff-mode scoped assessment.
 * (Optional) Plan document content for plan-mode assessment.
 
 ## Constants
 
-Skill base path: `.github/skills`
-
-Skill entry pattern: `.github/skills/{skill-name}/SKILL.md`
-
-Vulnerability index pattern: `.github/skills/{skill-name}/references/00-vulnerability-index.md`
-
-Vulnerability reference directory: `.github/skills/{skill-name}/references/`
+Skill resolution: Read the applicable security skill by name (e.g. `agentic-vulnerabilities`, `cicd-vulnerabilities`, `docker-vulnerabilities`, `infrastructure-vulnerabilities`, `llm-vulnerabilities`, `mcp-vulnerabilities`, `ml-vulnerabilities`, `mobile-vulnerabilities`, `oss-vulnerabilities`, `web-vulnerabilities`). Follow the skill's normative reference links to access the vulnerability index and individual vulnerability references.
 
 ### Status Values
 
@@ -74,7 +68,7 @@ The SKILL_FINDINGS_V1 format defines the structured output for a single skill as
 
 Where:
 
-* SKILL_NAME: The OWASP skill identifier.
+* SKILL_NAME: The security skill identifier.
 * FRAMEWORK_NAME: The framework name from SKILL.md.
 * FRAMEWORK_VERSION: The framework_revision from SKILL.md.
 * REFERENCE_URL: The content_based_on URL from SKILL.md.
@@ -142,16 +136,16 @@ Make all guidance specific to the plan content rather than generic boilerplate.
 ### Pre-requisite: Setup
 
 1. Accept the skill name and codebase profile from the parent agent.
-2. Resolve path patterns by substituting the skill name into the constants above.
+2. Read the applicable security skill by name.
 
 ### Step 1: Gather All Vulnerability References
 
-1. Read the skill entry file at `.github/skills/{skill-name}/SKILL.md` and capture framework metadata (name, version, reference URL).
-2. Read the vulnerability index at `.github/skills/{skill-name}/references/00-vulnerability-index.md` and extract the full list of vulnerability IDs.
-3. For each vulnerability ID in the index, read the corresponding reference file from `.github/skills/{skill-name}/references/` and store its full content.
+1. Read the located skill entry file and capture framework metadata (name, version, reference URL).
+2. Follow the entry file's normative reference links to read the vulnerability index (`references/00-vulnerability-index.md`) and extract the full list of vulnerability IDs.
+3. For each vulnerability ID in the index, read the corresponding reference file from the skill's `references/` directory and store its full content.
 4. Do not proceed to Step 2 until every reference file has been read and stored.
 
-### Step 2: Analyse Against References
+### Step 2: Analyze Against References
 
 Behavior varies by mode. The mode is inferred from the invocation prompt: the presence of a changed files list indicates diff mode, the presence of a plan document indicates plan mode, and neither indicates audit mode.
 
@@ -194,10 +188,10 @@ Behavior varies by mode. The mode is inferred from the invocation prompt: the pr
 
 ## Required Protocol
 
-1. Complete Step 1 (gather all vulnerability references) in full before beginning Step 2 regardless of mode. Do not search, analyse, or evaluate until every vulnerability reference file has been read.
+1. Complete Step 1 (gather all vulnerability references) in full before beginning Step 2 regardless of mode. Do not search, analyze, or evaluate until every vulnerability reference file has been read.
 2. Infer the mode from the invocation prompt: changed files list signals diff mode, plan document signals plan mode, neither signals audit mode.
 3. Process all vulnerability references within this single invocation. Do not defer references to separate invocations.
-4. Use the accumulated reference knowledge from all vulnerability files when analysing each codebase pattern or evaluating plan content.
+4. Use the accumulated reference knowledge from all vulnerability files when analyzing each codebase pattern or evaluating plan content.
 5. Do not modify any files in the repository.
 6. Do not produce an executive summary or content beyond what the output format (SKILL_FINDINGS_V1 or PLAN_FINDINGS_V1) specifies.
 

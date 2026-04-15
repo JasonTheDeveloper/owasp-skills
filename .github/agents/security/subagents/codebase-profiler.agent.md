@@ -1,6 +1,6 @@
 ---
 name: Codebase Profiler
-description: "Scans the repository to build a technology profile and identify which OWASP skills apply to the codebase"
+description: "Scans the repository to build a technology profile and identify which security skills apply to the codebase - Brought to you by microsoft/hve-core"
 tools:
   - search/changes
   - search/codebase
@@ -12,7 +12,7 @@ user-invocable: false
 
 # Codebase Profiler
 
-Scan the repository to identify its technology stack and determine which OWASP skills apply to the codebase. Return a structured profile for the parent orchestrator.
+Scan the repository to identify its technology stack and determine which security skills apply to the codebase. Return a structured profile for the parent orchestrator.
 
 ## Purpose
 
@@ -31,7 +31,7 @@ Scan the repository to identify its technology stack and determine which OWASP s
 
 ## Constants
 
-Skill base path: `.github/skills`
+Skill resolution: Read the applicable security skill by name (e.g., `agentic-vulnerabilities`, `cicd-vulnerabilities`, `docker-vulnerabilities`, `infrastructure-vulnerabilities`, `llm-vulnerabilities`, `mcp-vulnerabilities`, `ml-vulnerabilities`, `mobile-vulnerabilities`, `oss-vulnerabilities`, `web-vulnerabilities`).
 
 ### Technology Signals
 
@@ -43,6 +43,9 @@ agentic-vulnerabilities:
   - "Tool-use loops"
   - "Memory stores for agents"
 cicd-vulnerabilities:
+  - "CI/CD pipeline definitions"
+  - "Build scripts"
+  - "Deployment configurations"
   - ".github/workflows/"
   - "Jenkinsfile"
   - ".gitlab-ci.yml"
@@ -50,8 +53,18 @@ cicd-vulnerabilities:
 docker-vulnerabilities:
   - "Dockerfile"
   - "docker-compose.yml"
-  - "Container manifests"
+  - "docker-compose.yaml"
+  - "Container manifests"Expand commentComment on lines R75 to R79Resolved
+  - ".dockerignore"
+  - ".containerignore"
+  - "Containerfile"
+  - "docker-bake.hcl"
 infrastructure-vulnerabilities:
+  - "Dockerfile"
+  - "docker-compose.yml"
+  - ".github/workflows/**"
+  - "Jenkinsfile"
+  - "terraform/**"
   - "Terraform files (.tf)"
   - "Bicep files (.bicep)"
   - "CloudFormation templates"

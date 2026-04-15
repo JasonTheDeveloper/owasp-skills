@@ -43,13 +43,13 @@ Orchestrate vulnerability assessment by delegating to subagents. Profile the cod
 
 ## Constants
 
-Report directory: `docs/reports`
+Report directory: `docs/reports/security`
 
-Report path pattern (audit): `docs/reports/vulnerability-report-{{YYYY-MM-DD}}-{{NNN}}.md`
+Report path pattern (audit): `docs/reports/security/vulnerability-report-{{YYYY-MM-DD}}-{{NNN}}.md`
 
-Report path pattern (diff): `docs/reports/vulnerability-report-diff-{{YYYY-MM-DD}}-{{NNN}}.md`
+Report path pattern (diff): `docs/reports/security/vulnerability-report-diff-{{YYYY-MM-DD}}-{{NNN}}.md`
 
-Report path pattern (plan): `docs/reports/plan-risk-assessment-{{YYYY-MM-DD}}-{{NNN}}.md`
+Report path pattern (plan): `docs/reports/security/plan-risk-assessment-{{YYYY-MM-DD}}-{{NNN}}.md`
 
 Skill base path: `.github/skills`
 
